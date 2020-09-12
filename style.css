@@ -1,0 +1,98 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f0f2f5;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+section .container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .container img {
+    height: 106px;
+}
+
+section .logo p {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+section .form {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px 0 28px;
+    width: 396px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+section .form-group {
+    margin-bottom: 14px;
+}
+
+section .form-group input {
+    font-size: 18px;
+    padding: 14px 16px;
+    width: 360px;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+} 
+
+
+section .form-group button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 360px;
+}
+
+section .forgotten {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section .form-group div {
+    border-bottom: 1px solid #dadde1;
+    width: 360px;
+    margin: auto;
+
+}
+
+section .btn-createId {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #36a420;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 12px 18px;
+    margin-top: 10px;
+}
+
+section .login-form {
+    text-align: center;
+}
